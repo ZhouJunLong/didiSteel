@@ -63,6 +63,10 @@
 #define WIDTH_SCALE [ODYTools getScreenWidthscale]
 #define HEIGHT_SCALE [ODYTools getScreenHightscale]
 
+//定义UIImage对象
+#define IMAGE(A) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:A ofType:nil]]
+#define ImageNamed(name) [UIImage imageNamed:name]
+
 /**
  * 通用图片资源
  */

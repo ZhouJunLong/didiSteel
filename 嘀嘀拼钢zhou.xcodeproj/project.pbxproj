@@ -59,6 +59,7 @@
 		1F1E3F1B2015E7CC00119E25 /* HomePageListTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E3F1A2015E7CC00119E25 /* HomePageListTVCell.m */; };
 		1F8B0B342017297F009D3C90 /* AppConfigure+HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B0B332017297F009D3C90 /* AppConfigure+HomePage.m */; };
 		1FA1B71C20182C18001E4879 /* AppConfigure+Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA1B71A20182C17001E4879 /* AppConfigure+Setting.m */; };
+		1FA1B71F2019B088001E4879 /* AppConfigure+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA1B71E2019B082001E4879 /* AppConfigure+Search.m */; };
 		1FEA9E4820157E7B001583CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9E4720157E7B001583CA /* AppDelegate.m */; };
 		1FEA9E5020157E7B001583CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA9E4F20157E7B001583CA /* Assets.xcassets */; };
 		1FEA9E5620157E7B001583CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9E5520157E7B001583CA /* main.m */; };
@@ -543,6 +544,8 @@
 		1F8B0B332017297F009D3C90 /* AppConfigure+HomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppConfigure+HomePage.m"; sourceTree = "<group>"; };
 		1FA1B71A20182C17001E4879 /* AppConfigure+Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppConfigure+Setting.m"; sourceTree = "<group>"; };
 		1FA1B71B20182C17001E4879 /* AppConfigure+Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppConfigure+Setting.h"; sourceTree = "<group>"; };
+		1FA1B71D2019B082001E4879 /* AppConfigure+Search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppConfigure+Search.h"; sourceTree = "<group>"; };
+		1FA1B71E2019B082001E4879 /* AppConfigure+Search.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppConfigure+Search.m"; sourceTree = "<group>"; };
 		1FEA9E4320157E7B001583CA /* 嘀嘀拼钢zhou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "嘀嘀拼钢zhou.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FEA9E4620157E7B001583CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FEA9E4720157E7B001583CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1872,6 +1875,8 @@
 				1F1E3EFB2015C46600119E25 /* AppConfigure+Utils.m */,
 				1F8B0B322017297F009D3C90 /* AppConfigure+HomePage.h */,
 				1F8B0B332017297F009D3C90 /* AppConfigure+HomePage.m */,
+				1FA1B71D2019B082001E4879 /* AppConfigure+Search.h */,
+				1FA1B71E2019B082001E4879 /* AppConfigure+Search.m */,
 			);
 			path = Configure;
 			sourceTree = "<group>";
@@ -4124,6 +4129,7 @@
 				1FEA9F1C20158922001583CA /* HJVCVerticalAnimation.m in Sources */,
 				1FEAA20A20158A24001583CA /* ApiMine.m in Sources */,
 				1FEAA28320158A24001583CA /* DataSilentLoader.m in Sources */,
+				1FA1B71F2019B088001E4879 /* AppConfigure+Search.m in Sources */,
 				1FEAA31320158A25001583CA /* TestVCLayout.m in Sources */,
 				1FEAA28B20158A24001583CA /* HJNILaunch.m in Sources */,
 				1F1E3F182015E7A600119E25 /* HomePageTVC.m in Sources */,
