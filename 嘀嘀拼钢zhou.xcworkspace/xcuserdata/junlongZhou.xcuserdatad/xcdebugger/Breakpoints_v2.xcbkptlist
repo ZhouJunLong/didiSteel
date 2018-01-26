@@ -4,18 +4,28 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../Common/Category/Views/UIView+loading.m"
-            timestampString = "538460384.10835"
+            filePath = "../../Common/Category/Views/UIView+Extension.m"
+            timestampString = "538651684.232249"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "-showLoadingWithMessage:onView:hideAfter:"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "-roundedCorner:size:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,29 +35,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../Common/Category/Views/UIView+loading.m"
-            timestampString = "538460384.1087019"
+            filePath = "../../Common/Category/Views/UIView+Extension.m"
+            timestampString = "538651706.3940361"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "-showLoadingWithMessage:onView:hideAfter:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../Common/Category/Views/UIView+loading.m"
-            timestampString = "538460384.1088001"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "-showLoadingWithMessage:onView:hideAfter:"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "-roundedCorner:size:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
