@@ -86,7 +86,7 @@
 #import "HJSize.h"
 
 // view
-#import "UIView+loading.h"
+//#import "UIView+loading.h"
 #import "UIView+create.h"
 #import "PhoneTabBarItem.h"
 #import "BaseTableView.h"
@@ -114,7 +114,7 @@
 #import "UIImageView+LoadingIndicator.h"
 #import "UIView+Extension.h"
 #import "UIViewController+Custom.h"
-#import "UIViewController+loading.h"
+//#import "UIViewController+loading.h"
 #import "UILabel+TextStyle.h"
 
 // log
@@ -134,7 +134,7 @@
 #import "UIDevice+IdentifierAddition.h"
 #import "JSONValueTransformer+router.h"
 #import "UIViewController+hj.h"
-#import "UIViewController+loading.h"
+//#import "UIViewController+loading.h"
 #import "NSDictionary+router.h"
 #import "NSArray+router.h"
 #import "NSMutableArray+router.h"
@@ -147,7 +147,7 @@
 #import "NSObject+safe.h"
 #import "NSString+MD5.h"
 #import "NSData+Hex.h"
-
+#import "NSObject+Tips.h"
 // CommonView
 #import "SysUtil.h"  // 公共弹框类
 #import "ViewUtil.h" // 视图工具类
@@ -159,7 +159,7 @@
 // app delegate
 #import "PhoneAppDelegate.h"
 
-#import "MBProgressHUD+JExpand.h"
+//#import "MBProgressHUD+JExpand.h"
 #import "MJRefresh.h"
 #import "FMDatabase.h"
 #import "ErrorView.h"

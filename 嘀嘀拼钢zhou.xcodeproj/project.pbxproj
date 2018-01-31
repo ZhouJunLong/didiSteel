@@ -60,6 +60,7 @@
 		1F8B0B342017297F009D3C90 /* AppConfigure+HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B0B332017297F009D3C90 /* AppConfigure+HomePage.m */; };
 		1FA1B71C20182C18001E4879 /* AppConfigure+Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA1B71A20182C17001E4879 /* AppConfigure+Setting.m */; };
 		1FA1B71F2019B088001E4879 /* AppConfigure+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA1B71E2019B082001E4879 /* AppConfigure+Search.m */; };
+		1FAE199020201EAB009A8549 /* NSObject+Tips.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE198F20201EAA009A8549 /* NSObject+Tips.m */; };
 		1FC90E3B201B24DF0085FDAA /* ApiShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC90E3A201B24DE0085FDAA /* ApiShoppingCart.m */; };
 		1FEA9E4820157E7B001583CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9E4720157E7B001583CA /* AppDelegate.m */; };
 		1FEA9E5020157E7B001583CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA9E4F20157E7B001583CA /* Assets.xcassets */; };
@@ -167,7 +168,6 @@
 		1FEAA23020158A24001583CA /* UIColor+ODY.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9FC220158A23001583CA /* UIColor+ODY.m */; };
 		1FEAA23120158A24001583CA /* UINavigationController+hj.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9FC520158A23001583CA /* UINavigationController+hj.m */; };
 		1FEAA23220158A24001583CA /* UIViewController+hj.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9FC720158A23001583CA /* UIViewController+hj.m */; };
-		1FEAA23320158A24001583CA /* UIViewController+loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9FC920158A23001583CA /* UIViewController+loading.m */; };
 		1FEAA23420158A24001583CA /* UIButton+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9FCC20158A23001583CA /* UIButton+Expand.m */; };
 		1FEAA23520158A24001583CA /* UIImage+SpeederGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9FCE20158A23001583CA /* UIImage+SpeederGIF.m */; };
 		1FEAA23620158A24001583CA /* UIImage+tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9FD020158A23001583CA /* UIImage+tool.m */; };
@@ -180,7 +180,6 @@
 		1FEAA23D20158A24001583CA /* UIView+create.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9FDE20158A23001583CA /* UIView+create.m */; };
 		1FEAA23E20158A24001583CA /* UIView+EnlargeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9FE020158A23001583CA /* UIView+EnlargeArea.m */; };
 		1FEAA23F20158A24001583CA /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9FE220158A23001583CA /* UIView+Extension.m */; };
-		1FEAA24020158A24001583CA /* UIView+loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9FE420158A23001583CA /* UIView+loading.m */; };
 		1FEAA24120158A24001583CA /* GoodsBasicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9FE820158A23001583CA /* GoodsBasicCell.m */; };
 		1FEAA24220158A24001583CA /* GroupBuyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9FEA20158A23001583CA /* GroupBuyCell.m */; };
 		1FEAA24320158A24001583CA /* IncludeCV.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA9FED20158A23001583CA /* IncludeCV.m */; };
@@ -205,7 +204,6 @@
 		1FEAA25620158A24001583CA /* CuntomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEAA01A20158A23001583CA /* CuntomAlertView.m */; };
 		1FEAA25720158A24001583CA /* CustomPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEAA01C20158A23001583CA /* CustomPopMenu.m */; };
 		1FEAA25820158A24001583CA /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEAA01E20158A23001583CA /* CustomView.m */; };
-		1FEAA25920158A24001583CA /* MBProgressHUD+JExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEAA02020158A23001583CA /* MBProgressHUD+JExpand.m */; };
 		1FEAA25A20158A24001583CA /* SysUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEAA02220158A23001583CA /* SysUtil.m */; };
 		1FEAA25B20158A24001583CA /* SuspensionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEAA02520158A23001583CA /* SuspensionButton.m */; };
 		1FEAA25C20158A24001583CA /* UIPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEAA02820158A23001583CA /* UIPlaceHolderTextView.m */; };
@@ -547,6 +545,8 @@
 		1FA1B71B20182C17001E4879 /* AppConfigure+Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppConfigure+Setting.h"; sourceTree = "<group>"; };
 		1FA1B71D2019B082001E4879 /* AppConfigure+Search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppConfigure+Search.h"; sourceTree = "<group>"; };
 		1FA1B71E2019B082001E4879 /* AppConfigure+Search.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppConfigure+Search.m"; sourceTree = "<group>"; };
+		1FAE198E20201EAA009A8549 /* NSObject+Tips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Tips.h"; sourceTree = "<group>"; };
+		1FAE198F20201EAA009A8549 /* NSObject+Tips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Tips.m"; sourceTree = "<group>"; };
 		1FC90E39201B24DE0085FDAA /* ApiShoppingCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiShoppingCart.h; sourceTree = "<group>"; };
 		1FC90E3A201B24DE0085FDAA /* ApiShoppingCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiShoppingCart.m; sourceTree = "<group>"; };
 		1FEA9E4320157E7B001583CA /* 嘀嘀拼钢zhou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "嘀嘀拼钢zhou.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -761,8 +761,6 @@
 		1FEA9FC520158A23001583CA /* UINavigationController+hj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+hj.m"; sourceTree = "<group>"; };
 		1FEA9FC620158A23001583CA /* UIViewController+hj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+hj.h"; sourceTree = "<group>"; };
 		1FEA9FC720158A23001583CA /* UIViewController+hj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+hj.m"; sourceTree = "<group>"; };
-		1FEA9FC820158A23001583CA /* UIViewController+loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+loading.h"; sourceTree = "<group>"; };
-		1FEA9FC920158A23001583CA /* UIViewController+loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+loading.m"; sourceTree = "<group>"; };
 		1FEA9FCB20158A23001583CA /* UIButton+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Expand.h"; sourceTree = "<group>"; };
 		1FEA9FCC20158A23001583CA /* UIButton+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Expand.m"; sourceTree = "<group>"; };
 		1FEA9FCD20158A23001583CA /* UIImage+SpeederGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SpeederGIF.h"; sourceTree = "<group>"; };
@@ -787,8 +785,6 @@
 		1FEA9FE020158A23001583CA /* UIView+EnlargeArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EnlargeArea.m"; sourceTree = "<group>"; };
 		1FEA9FE120158A23001583CA /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		1FEA9FE220158A23001583CA /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		1FEA9FE320158A23001583CA /* UIView+loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+loading.h"; sourceTree = "<group>"; };
-		1FEA9FE420158A23001583CA /* UIView+loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+loading.m"; sourceTree = "<group>"; };
 		1FEA9FE720158A23001583CA /* GoodsBasicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsBasicCell.h; sourceTree = "<group>"; };
 		1FEA9FE820158A23001583CA /* GoodsBasicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsBasicCell.m; sourceTree = "<group>"; };
 		1FEA9FE920158A23001583CA /* GroupBuyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupBuyCell.h; sourceTree = "<group>"; };
@@ -836,8 +832,6 @@
 		1FEAA01C20158A23001583CA /* CustomPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPopMenu.m; sourceTree = "<group>"; };
 		1FEAA01D20158A23001583CA /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
 		1FEAA01E20158A23001583CA /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
-		1FEAA01F20158A23001583CA /* MBProgressHUD+JExpand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+JExpand.h"; sourceTree = "<group>"; };
-		1FEAA02020158A23001583CA /* MBProgressHUD+JExpand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+JExpand.m"; sourceTree = "<group>"; };
 		1FEAA02120158A23001583CA /* SysUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysUtil.h; sourceTree = "<group>"; };
 		1FEAA02220158A23001583CA /* SysUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SysUtil.m; sourceTree = "<group>"; };
 		1FEAA02420158A23001583CA /* SuspensionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspensionButton.h; sourceTree = "<group>"; };
@@ -2123,6 +2117,8 @@
 		1FEA9F9020158A23001583CA /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				1FAE198E20201EAA009A8549 /* NSObject+Tips.h */,
+				1FAE198F20201EAA009A8549 /* NSObject+Tips.m */,
 				1FEA9F9120158A23001583CA /* NSObject+AssociatedObject.h */,
 				1FEA9F9220158A23001583CA /* NSObject+AssociatedObject.m */,
 				1FEA9F9320158A23001583CA /* NSObject+BeeNotification.h */,
@@ -2208,8 +2204,6 @@
 				1FEA9FC520158A23001583CA /* UINavigationController+hj.m */,
 				1FEA9FC620158A23001583CA /* UIViewController+hj.h */,
 				1FEA9FC720158A23001583CA /* UIViewController+hj.m */,
-				1FEA9FC820158A23001583CA /* UIViewController+loading.h */,
-				1FEA9FC920158A23001583CA /* UIViewController+loading.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -2241,8 +2235,6 @@
 				1FEA9FE020158A23001583CA /* UIView+EnlargeArea.m */,
 				1FEA9FE120158A23001583CA /* UIView+Extension.h */,
 				1FEA9FE220158A23001583CA /* UIView+Extension.m */,
-				1FEA9FE320158A23001583CA /* UIView+loading.h */,
-				1FEA9FE420158A23001583CA /* UIView+loading.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -2384,8 +2376,6 @@
 				1FEAA01C20158A23001583CA /* CustomPopMenu.m */,
 				1FEAA01D20158A23001583CA /* CustomView.h */,
 				1FEAA01E20158A23001583CA /* CustomView.m */,
-				1FEAA01F20158A23001583CA /* MBProgressHUD+JExpand.h */,
-				1FEAA02020158A23001583CA /* MBProgressHUD+JExpand.m */,
 				1FEAA02120158A23001583CA /* SysUtil.h */,
 				1FEAA02220158A23001583CA /* SysUtil.m */,
 			);
@@ -3828,7 +3818,6 @@
 				1FEAA31D20158A25001583CA /* ViewUtil.m in Sources */,
 				1FEAA28420158A24001583CA /* HJUserDefaultDefine.m in Sources */,
 				1F1E3F1B2015E7CC00119E25 /* HomePageListTVCell.m in Sources */,
-				1FEAA25920158A24001583CA /* MBProgressHUD+JExpand.m in Sources */,
 				1F1E3EF22015C1A500119E25 /* VoucherFooterView.m in Sources */,
 				1FEAA2A820158A24001583CA /* PhoneResetPasswordVC.m in Sources */,
 				1F1E3EEF2015C1A500119E25 /* ApiUploadVoucher.m in Sources */,
@@ -3940,7 +3929,6 @@
 				1FEAA58D20158A2E001583CA /* UIScrollView+MJExtension.m in Sources */,
 				1FEAA2BB20158A24001583CA /* MyMessageVC.m in Sources */,
 				1FEAA29720158A24001583CA /* HJLoginLogic.m in Sources */,
-				1FEAA24020158A24001583CA /* UIView+loading.m in Sources */,
 				1FEAA2D020158A24001583CA /* HJOperationManager+Download.m in Sources */,
 				1FEAA20520158A24001583CA /* ApiAnnouncement.m in Sources */,
 				1FEA9F2D20158922001583CA /* UIViewController+Custom.m in Sources */,
@@ -4041,7 +4029,6 @@
 				1FEAA25320158A24001583CA /* BasePopMenu.m in Sources */,
 				1FEAA26C20158A24001583CA /* SucceedInOrderingVC.m in Sources */,
 				1F1E3EF82015C2BA00119E25 /* ShoppingCartTVCell.m in Sources */,
-				1FEAA23320158A24001583CA /* UIViewController+loading.m in Sources */,
 				1F1E3EF32015C1A500119E25 /* VoucherHeaderView.m in Sources */,
 				1FEAA2B220158A24001583CA /* PhoneRegisterCell.m in Sources */,
 				1FEAA27F20158A24001583CA /* DataHttpConnection.m in Sources */,
@@ -4063,6 +4050,7 @@
 				1F1E3EB82015B9BD00119E25 /* FormBasicTVCell.m in Sources */,
 				1FEAA2F720158A24001583CA /* SubCatagoryHeaderView.m in Sources */,
 				1FEAA59920158A2E001583CA /* TOActivitySafari.m in Sources */,
+				1FAE199020201EAB009A8549 /* NSObject+Tips.m in Sources */,
 				1FEA9F2620158922001583CA /* BaseNCDelegate.m in Sources */,
 				1FEAA2CE20158A24001583CA /* HJOperationManager+Batch.m in Sources */,
 				1FEAA21120158A24001583CA /* MyBillListTVCell.m in Sources */,
@@ -4321,7 +4309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ESAP4X27KP;
+				DEVELOPMENT_TEAM = LR33445QYZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4371,7 +4359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ESAP4X27KP;
+				DEVELOPMENT_TEAM = LR33445QYZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

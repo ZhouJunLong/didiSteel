@@ -9,6 +9,7 @@
 #import "HomePageTVC.h"
 #import "HomePageListTVCell.h"
 #import "ApiHome.h"
+
 @interface HomePageTVC ()
 @property (nonatomic, strong) NSMutableArray *banner;
 @property (nonatomic, strong) NSMutableArray *goodsItems;
@@ -36,6 +37,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+   
+   
     [self setNaviTitle:@"嘀嘀拼钢"];
     self.showBlankTips = YES;
     self.cellClass = [HomePageListTVCell class];
@@ -50,12 +53,12 @@
 }
 - (void)updateBanner
 {
-//    [self showLoading];
+    [self showLoading];
 
     [ApiHome queryGrouponForecastList:^(DataSilentLoader *silentLoader, DataResult *result) {
         NSLog(@"result--Banner--%@",result);
 
-//        [self hideLoading];
+        [self hideLoading];
         if ([DataResult hasError:result])
         {
             return;

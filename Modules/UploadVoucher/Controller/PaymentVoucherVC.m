@@ -93,13 +93,13 @@
         // 这里上传凭证之前要先去调上传图片的公共接口
         if (weakSelf.orgImage == nil )
         {
-            [MBProgressHUD showError:@"请选择凭证并上传"];
+            [self showError:@"请选择凭证并上传"];
             return;
         }
         NSUInteger numberKB = [[weakSelf getImageData] length] / 1024;
         if (numberKB > 500)
         {
-            [MBProgressHUD showError:@"选择的图片超过了500KB"];
+            [self showError:@"选择的图片超过了500KB"];
             return;
         }
         

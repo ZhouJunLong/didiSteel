@@ -26,7 +26,7 @@
                 companyId:companyId
                  callback:^(DataSilentLoader *silentLoader, DataResult *result) {
                      [viewController.view hideLoading];
-                     [MBProgressHUD showSuccess:result.message];
+                     [self showSuccess:result.message];
                      NSString *imageUrl = [[[result.items getMutableArray] objectAtIndex:0] getString:@"imgUrl"];
                      if (!result.hasError)
                      {
@@ -34,7 +34,7 @@
                                          orderAmount:1.0
                                            photoPath:imageUrl
                                             callback:^(DataSilentLoader *silentLoader, DataResult *result) {
-                                                [MBProgressHUD showSuccess:result.message];
+                                                [self showSuccess:result.message];
                                                 if (!result.hasError)
                                                 {
                                                     //                                                        [ODYTools showMyMessage:@"上传交易凭证成功！等待管理员审核..."];

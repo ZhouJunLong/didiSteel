@@ -133,7 +133,7 @@
 {
     if ([self.detailDict hasKey:@"stockNum"] && [self.detailDict getInt:@"stockNum"] <= 0)
     {
-        [MBProgressHUD showError:@"该商品已售罄"];
+        [self showError:@"该商品已售罄"];
         self.selectButton.selected = NO;
     }
     else
