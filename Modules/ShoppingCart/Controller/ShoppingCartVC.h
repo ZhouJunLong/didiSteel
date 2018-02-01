@@ -7,7 +7,7 @@
 //
 
 #import "TableVC.h"
-
+#import "ShoppingCartPanelView.h"
 @interface ShoppingCartVC : TableVC
-
+@property (nonatomic, strong) ShoppingCartPanelView *bottomView;
 @end

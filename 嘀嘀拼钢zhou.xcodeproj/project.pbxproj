@@ -57,6 +57,7 @@
 		1F1E3F0F2015D4AB00119E25 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1E3F0E2015D4AB00119E25 /* libstdc++.6.tbd */; };
 		1F1E3F182015E7A600119E25 /* HomePageTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E3F172015E7A600119E25 /* HomePageTVC.m */; };
 		1F1E3F1B2015E7CC00119E25 /* HomePageListTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E3F1A2015E7CC00119E25 /* HomePageListTVCell.m */; };
+		1F2D66D52022F10800625002 /* ShoppingCartPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D66D42022F10800625002 /* ShoppingCartPanelView.m */; };
 		1F8B0B342017297F009D3C90 /* AppConfigure+HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B0B332017297F009D3C90 /* AppConfigure+HomePage.m */; };
 		1FA1B71C20182C18001E4879 /* AppConfigure+Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA1B71A20182C17001E4879 /* AppConfigure+Setting.m */; };
 		1FA1B71F2019B088001E4879 /* AppConfigure+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA1B71E2019B082001E4879 /* AppConfigure+Search.m */; };
@@ -539,6 +540,8 @@
 		1F1E3F172015E7A600119E25 /* HomePageTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageTVC.m; sourceTree = "<group>"; };
 		1F1E3F192015E7CC00119E25 /* HomePageListTVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageListTVCell.h; sourceTree = "<group>"; };
 		1F1E3F1A2015E7CC00119E25 /* HomePageListTVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageListTVCell.m; sourceTree = "<group>"; };
+		1F2D66D32022F10800625002 /* ShoppingCartPanelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingCartPanelView.h; sourceTree = "<group>"; };
+		1F2D66D42022F10800625002 /* ShoppingCartPanelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartPanelView.m; sourceTree = "<group>"; };
 		1F8B0B322017297F009D3C90 /* AppConfigure+HomePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppConfigure+HomePage.h"; sourceTree = "<group>"; };
 		1F8B0B332017297F009D3C90 /* AppConfigure+HomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppConfigure+HomePage.m"; sourceTree = "<group>"; };
 		1FA1B71A20182C17001E4879 /* AppConfigure+Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppConfigure+Setting.m"; sourceTree = "<group>"; };
@@ -1499,6 +1502,8 @@
 				1F1E3EF72015C2B900119E25 /* ShoppingCartTVCell.m */,
 				1F1E3ED62015BC1100119E25 /* UnitPriceLabel.h */,
 				1F1E3ED72015BC1100119E25 /* UnitPriceLabel.m */,
+				1F2D66D32022F10800625002 /* ShoppingCartPanelView.h */,
+				1F2D66D42022F10800625002 /* ShoppingCartPanelView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -4095,6 +4100,7 @@
 				1FEAA2EB20158A24001583CA /* PaySuccess.m in Sources */,
 				1F1E3EC72015B9BD00119E25 /* FormIconTitleArrowTVCell.m in Sources */,
 				1FEA9F1920158922001583CA /* HJVCFoldAnimation.m in Sources */,
+				1F2D66D52022F10800625002 /* ShoppingCartPanelView.m in Sources */,
 				1FEAA2AB20158A24001583CA /* AuthcodeView.m in Sources */,
 				1F1E3EBB2015B9BD00119E25 /* FormTitleSwitchTVCell.m in Sources */,
 				1FEA9F2320158922001583CA /* HJViewPoper.m in Sources */,
