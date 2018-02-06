@@ -22,6 +22,8 @@
 
 + (void)load{
     [ODYRouter registerClass:self key:@"ShoppingCartVC"];
+    
+    
 }
 
 -(void)viewWillAppear:(BOOL)animated
@@ -70,7 +72,54 @@
         [self.bottomView updateStatus:self.items];
         [self.tableView reloadData];
     };
+    
+    self.bottomView.cartOrdersBlock = ^{
+        Weak2Strong;
+        //检查用户是否已登录
+        if ([ODYGlobalValue isLogin]) {
+            //如果已经登录 再检查库存 库存没问题跳转到提交订单页面
+            [self gotoCartSettle];
+        }else{
+            [ODYRouter gotoPage:@"phoneLogin"];
+        }
+    };
+    
+    
     [self addBottomButton:self.bottomView hasTabBar:YES];
+}
+
+/**
+ 去结算
+ */
+- (void)gotoCartSettle
+{
+    int count = 0;
+    NSString *mpIds = [NSString string];
+    for (int i = 0; i < self.items.count; i++) {
+        NSMutableDictionary *item = [self.items getMutableDict:i];
+        if (![item getBool:CKSelect]) {
+            continue;
+        }
+        if (count > 0) {
+            mpIds = [mpIds stringByAppendingString:@","];
+        }
+        count++;
+        mpIds = [mpIds stringByAppendingString:[item getString:@"mpId"]];
+    }
+    if (count <= 0) {
+        [self showError:@"请选择商品"];
+        return;
+    }
+//    [self showLoading];
+    [ApiShoppingCart cartSettleCartItemMpIds:mpIds callback:^(DataSilentLoader *silentLoader, DataResult *result) {
+        if ([DataResult checkResultOK:result]) {
+//            [self hideLoading];
+                [ODYRouter gotoPage:@"confirmOrder" param:@{ @"mpIds" : mpIds ,@"animationType" : @2 }];
+            
+        }
+    }];
+    
+    
 }
 
 - (void)updateShoppingCartList{
@@ -140,7 +189,7 @@
         [self hideLoading];
         if ([DataResult checkResultOK:result]) {
             //清除本地数据
-            [self showLoading];
+           
             [self.items removeAllObjects];
             [self.bottomView updateStatus:self.items];
             [self.tableView reloadData];

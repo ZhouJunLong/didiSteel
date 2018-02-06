@@ -22,10 +22,10 @@
 
 // Configure
 #import "AppConfigure.h"
-//#import "AppConfigure+Login.h"
+#import "AppConfigure+Login.h"
 #import "AppConfigure+Utils.h"
 #import "AppConfigure+HomePage.h"
-//#import "AppConfigure+Search.h"
+#import "AppConfigure+Search.h"
 #import "AppConfigure+Setting.h"
 
 // Api
